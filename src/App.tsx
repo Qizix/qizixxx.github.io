@@ -50,8 +50,9 @@ const App: React.FC = () => {
             />
             <SocialLink 
               icon="lucide:mail" 
-              href="yar.dziub2005@gmail.com"
+              href="mailto:yar.dziub2005@gmail.com"
             />
+
           </motion.div>
           
           {/* Footer */}
