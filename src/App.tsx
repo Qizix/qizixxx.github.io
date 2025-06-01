@@ -27,7 +27,7 @@ const App: React.FC = () => {
             className="text-center"
           >
             <TerminalText 
-              text="Hi, I'm qizixxx — I explore code, AI, and chaos. Always learning. Sometimes shipping."
+              text="AI, code, models, mistakes, chaos. Learning fast. Losing MMR faster."
               typingSpeed={30}
               className="text-foreground-600 text-lg sm:text-xl max-w-sm mx-auto"
             />
@@ -42,18 +42,15 @@ const App: React.FC = () => {
           >
             <SocialLink 
               icon="lucide:github" 
-              label="GitHub"
-              href="https://github.com/qizixxx"
+              href="https://github.com/qizix"
             />
             <SocialLink 
-              icon="lucide:twitter" 
-              label="Twitter"
-              href="https://twitter.com/qizixxx"
+              icon="lucide:send" 
+              href="https://t.me/qizixxx"
             />
             <SocialLink 
               icon="lucide:mail" 
-              label="Email"
-              href="mailto:hello@qizixxx.com"
+              href="yar.dziub2005@gmail.com"
             />
           </motion.div>
           
@@ -64,12 +61,6 @@ const App: React.FC = () => {
             transition={{ delay: 3, duration: 0.8 }}
             className="mt-12 text-foreground-400 text-xs"
           >
-            <div className="flex items-center justify-center gap-1">
-              <span>Made with</span>
-              <Icon icon="lucide:code" className="text-primary inline-block mx-1" width={14} />
-              <span>and</span>
-              <Icon icon="lucide:coffee" className="text-primary inline-block mx-1" width={14} />
-            </div>
           </motion.div>
         </div>
       </motion.div>
